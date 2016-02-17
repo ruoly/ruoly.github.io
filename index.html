@@ -8,7 +8,11 @@
     
     function clickxxx()
     {
-         alert("事件");
+      var element = document.createElement("p"); 
+      var node = document.createTextNode("添加新段落"); 
+      element.appendChild(node); 
+      x = document.getElementById("demo"); 
+      x.appendChild(element); 
     }
     
     </script>
@@ -28,9 +32,17 @@
       </div>
     </header>
 
+    <div>
     <p>heihei</p>
     
     <input type="button" onClick="clickxxx()" value="xxx"/>
-  
+    </div>
+    
+    <div id="demo"> 
+    
+      <p>这是第一段</p> 
+      
+    </div>
+
   </body>
 </html>
