@@ -8,6 +8,9 @@
     
     function appendNode(id, type, newtxt)
     {
+      alert(id);
+      alert(type);
+      alert(newtxt);
       var element = document.createElement(type); 
       var node = document.createTextNode(newtxt); 
       element.appendChild(node); 
@@ -24,7 +27,7 @@
       var x3 = x1 + x2;
       var s = x3.toString;
       alert(s);
-      //append("sum", "p", s);      
+      appendNode("sum", "p", s);      
     }
     
     </script>
@@ -44,26 +47,17 @@
       </div>
     </header>
 
-    <p>heihei</p>
-    
-    <input type="button" value="增加新段落" onClick="appendNode('demo', 'p', 'new txt')" />
-    
-    <input type="button" value="计算" onClick="calculate()" />
-    
-    <label for="x1">x1:</label><input type="text" id="x1" value=10 />
-    <label for="x2">x2:</label><input type="text" id="x2" value=20 />
-
     <div id="demo"> 
-    
-      <p>这是第一段</p> 
-      
+      <input type="button" value="增加新段落" onClick="appendNode('demo', 'p', 'new txt')" />
+      <p>这是第一段</p>
     </div>
     
-    <div id="sum"> 
-    
-      <p>这是计算</p> 
-      
-    </div>
+    /*<div id="sum"> 
+      <label for="x1">x1:</label><input type="text" id="x1" value=10 />
+      <label for="x2">x2:</label><input type="text" id="x2" value=20 />
+      <input type="button" value="计算" onClick="calculate()" />
+      <p>这是计算</p>
+    </div>*/
 
   </body>
 </html>
