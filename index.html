@@ -6,12 +6,12 @@
     
     <script type='text/javascript' charset="UTF-8">
     
-    function clickxxx()
+    function click1(id, type, newtxt)
     {
-      var element = document.createElement("p"); 
-      var node = document.createTextNode("添加新段落"); 
+      var element = document.createElement(type); 
+      var node = document.createTextNode(newtxt); 
       element.appendChild(node); 
-      x = document.getElementById("demo"); 
+      x = document.getElementById(id); 
       x.appendChild(element); 
     }
     
@@ -34,7 +34,7 @@
 
     <p>heihei</p>
     
-    <input type="button" value="  xxx " onClick="clickxxx()" />
+    <input type="button" value="增加新段落" onClick="click1("demo", "p", "new txt")" />
 
     <div id="demo"> 
     
