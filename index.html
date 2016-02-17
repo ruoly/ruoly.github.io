@@ -6,15 +6,25 @@
     
     <script type='text/javascript' charset="UTF-8">
     
-    function click1(id, type, newtxt)
+    function appendNode(id, type, newtxt)
     {
       var element = document.createElement(type); 
       var node = document.createTextNode(newtxt); 
       element.appendChild(node); 
       x = document.getElementById(id); 
       x.appendChild(element); 
-      
       alert(newtxt);
+    }
+
+    function calculate(）
+    {
+      alert("hh");
+      var x1 = parseInt(document.getElementById("x1").value); 
+      var x2 = parseInt(document.getElementById("x2").value);  
+      var x3 = x1 + x2;
+      var s = x3.toString;
+      alert(s);
+      //append("sum", "p", s);      
     }
     
     </script>
@@ -36,11 +46,22 @@
 
     <p>heihei</p>
     
-    <input type="button" value="增加新段落" onClick="click1('demo', 'p', 'new txt')" />
+    <input type="button" value="增加新段落" onClick="appendNode('demo', 'p', 'new txt')" />
+    
+    <input type="button" value="计算" onClick="calculate()" />
+    
+    <label for="x1">x1:</label><input type="text" id="x1" value=10/>
+    <label for="x2">x2:</label><input type="text" id="x2" value=20/>
 
     <div id="demo"> 
     
       <p>这是第一段</p> 
+      
+    </div>
+    
+    <div id="sum"> 
+    
+      <p>这是计算</p> 
       
     </div>
 
