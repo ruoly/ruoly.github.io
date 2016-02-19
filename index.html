@@ -22,18 +22,15 @@
 	padding-bottom: 1%;
 }
 #Content {
-	overflow: auto
+	overflow: auto;
 }
 
 #Content-Main {
 	border-radius: 25px;
-	width:100%;
 	height: 40em;
 	background-color: #FFFFFF;
 	margin: 2%;
 	padding: 2%;
-	overflow: auto
-	border:hidden;
 }
 
 #guestbook {
@@ -440,7 +437,9 @@ $(function(){
 		</li>
 		</ul>
 	</div>
-  <iframe name="framemain" id="Content-Main" src=""></iframe>
+	<div id = "Content-Main">
+  	<iframe name="framemain" src="" frameborder="0"  width="100%" height="100%"></iframe>
+	</div>
   <div id="guestbook">guestbook</div>
   <div id="Footer">footer</div>
 </div>
