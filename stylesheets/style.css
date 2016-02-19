@@ -55,10 +55,10 @@
     color:#000
 }
 .tree li>ul {
-		display:none;
+		display:none
 }
 .button1{
-	background-color:#B2DEFF
+	background-color:rgba(#B2, #DE, #FF, 0.4)
 }
 
 .button2{	
