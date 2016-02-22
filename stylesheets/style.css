@@ -1,16 +1,19 @@
 .tree {
-    position:absolute;
-    left: 1%;
-    top: 15%;
+		position:absolute;
+		left: 1px;
+		top: 15%;
     min-height:20px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0); 
+    border:0; 
+    padding:0;
+    margin:0;
+    background-color: rgba(0, 0, 0, 0);  
 }
 .tree li {
     list-style-type:none;
-    margin:0;
-    padding:10px 5px 0 5px;
-    position:relative
+    margin-left:-0.5em;
+    padding:0.5em 3px 0 0px;
+    background-color: rgba(0, 0, 0, 0);
+    position:relative;  
 }
 .tree li span {
     -moz-border-radius:5px;
@@ -26,16 +29,17 @@
 }
 
 .tree li>ul {
-		display:none
+		display:none;
 }
+
 .button1{
-	background-color:rgba(178, 222, 255, 0.4)
+	background-color:#D2EEFF
 }
 
 .button2{	
-	background-color:rgba(229, 248, 255, 0.4)
+	background-color:#E5F8DF
 }
 
 .leaf{	
-	background-color:rgba(255, 238, 249, 0.4)
+	background-color:#FFEEF9
 }
