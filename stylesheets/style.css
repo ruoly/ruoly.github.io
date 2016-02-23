@@ -32,6 +32,12 @@
 		display:none;
 }
 
+.tree li span:hover{
+    background:#FBFDAC;
+    border:1px solid #94a0b4;
+    color:#000
+}
+
 .button1{
 	background-color:#D2EEFF
 }
