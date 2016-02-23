@@ -1,7 +1,7 @@
 .tree {
-		position:absolute;
-		left: 1px;
-		top: 15%;
+    position:absolute;
+    left: 1px;
+    top: 1px;
     min-height:20px;
     border:0; 
     padding:0;
