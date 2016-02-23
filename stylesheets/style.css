@@ -66,3 +66,13 @@ p.title {
 .dp {
 	color:#5151FF;
 }
+
+.myframe {
+	border-radius: 25px;
+	background-color: #FFFFFF;
+	overflow: auto;
+	line-height:1.8em;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
