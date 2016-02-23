@@ -16,14 +16,6 @@
 	margin: 2%;
 	padding: 2%;
 }
-#logo {
-	padding-left: 1%;
-	padding-top: 1%;
-	padding-bottom: 1%;
-}
-#Content {
-	overflow: auto;
-}
 
 #Content-Main {
 	border-radius: 25px;
@@ -31,25 +23,9 @@
 	background-color: #FFFFFF;
 	margin: 2%;
 	padding: 2%;
+	overflow: auto;
 }
 
-#guestbook {
-	border-radius: 25px;
-	height: 15em;
-	background-color: #E5F8FF;
-	margin: 2%;
-	padding: 2%;
-}
-#Footer {
-	border-radius: 25px;
-	height: 1.5em;
-	background-color: #D8F9E9;
-	margin: 2%;
-	padding: 2%;
-}
-.Clear {
-	clear: both;
-}
 </style>
 
 <!--图标样式-->
@@ -92,9 +68,7 @@ $(function(){
 
 <body>
 <div id="Container" >
-  <div id="Header" >
-    <div id="logo">奇迹暖暖攻略</div>
-  </div>
+  <div id="Header" >奇迹暖暖攻略</div>
   <div class="tree well">
 		<ul>
 			<li> <span class="button2"><i class="icon-plus-sign"></i> 菜单 </a></span>	
@@ -102,22 +76,22 @@ $(function(){
 	      <li> <span class="button1"><i class="icon-plus-sign"></i>竞技场攻略 </a></span>
 	        <ul>
 	          <li><span class="leaf"><a href="./bgs.html"  target="framemain">办公室明星</a></span></li>
-	          <li><span class="leaf"><a href="">春天在哪里</a></span></li>
-	          <li><span class="leaf"><a href="">大侦探福尔摩斯</a></span></li>
-	          <li><span class="leaf"><a href="">冬天里的一把火</a></span></li>
-	          <li><span class="leaf"><a href="">宫廷歌舞会</a></span></li>
-	          <li><span class="leaf"><a href="">海边派对的搭配</a></span></li>
-	          <li><span class="leaf"><a href="">金色音乐厅</a></span></li>
-	          <li><span class="leaf"><a href="">绝色无双</a></span></li>
-	          <li><span class="leaf"><a href="">年轻的春游</a></span></li>
-	          <li><span class="leaf"><a href="">女王大人</a></span></li>
-	          <li><span class="leaf"><a href="">奇幻童话园</a></span></li>
-	          <li><span class="leaf"><a href="">清秀佳人</a></span></li>
-	          <li><span class="leaf"><a href="">圣诞家庭聚会</a></span></li>
-	          <li><span class="leaf"><a href="">夏季游园会</a></span></li>
-	          <li><span class="leaf"><a href="">夏日物语</a></span></li>
-	          <li><span class="leaf"><a href="">有女初长成</a></span></li>
-	          <li><span class="leaf"><a href="">运动进行时</a></span></li>
+	          <li><span class="leaf"><a href="./ct.html"  target="framemain">春天在哪里</a></span></li>
+	          <li><span class="leaf"><a href=""   target="framemain">大侦探福尔摩斯</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">冬天里的一把火</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">宫廷歌舞会</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">海边派对的搭配</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">金色音乐厅</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">绝色无双</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">年轻的春游</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">女王大人</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">奇幻童话园</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">清秀佳人</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">圣诞家庭聚会</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">夏季游园会</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">夏日物语</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">有女初长成</a></span></li>
+	          <li><span class="leaf"><a href=""  target="framemain">运动进行时</a></span></li>
 	        </ul>
 	      </li>
 	      <li> <span class="button1"><i class="icon-plus-sign"></i>联盟攻略 </a></span>
@@ -161,11 +135,9 @@ $(function(){
 		</li>
 		</ul>
 	</div>
-	<div id = "Content-Main">
-  	<iframe name="framemain" src="" frameborder="0"  width="100%" height="100%"></iframe>
-	</div>
-  <div id="guestbook">guestbook</div>
-  <div id="Footer">footer</div>
+  <div id = "Content-Main">
+     <iframe name="framemain" src="" frameborder="0"  width="100%" height="100%"></iframe>
+  </div>
 </div>
 </body>
 </html>
