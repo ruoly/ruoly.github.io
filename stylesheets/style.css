@@ -49,3 +49,13 @@
 .leaf{	
 	background-color:#FFEEF9
 }
+
+p.normal {
+	font-size: 90%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  color:#333333;
+}
+
+.dp {
+	color:#5151FF;
+}
