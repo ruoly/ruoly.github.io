@@ -33,7 +33,7 @@
 }
 
 .tree li span:hover{
-    background:#FBFDAC;
+    background:#FFEEF9;
     border:1px solid #94a0b4;
     color:#000
 }
@@ -47,7 +47,7 @@
 }
 
 .leaf{	
-	background-color:#FFEEF9
+	background-color:#FBFDAC
 }
 
 p.normal {
