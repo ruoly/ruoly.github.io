@@ -57,6 +57,7 @@ p.normal {
 }
 p.title {
 	font-size: 130%;
+	font-weight : 700;
 	 font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
   color:#5151FF;
 }
