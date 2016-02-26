@@ -47,10 +47,10 @@ $(function(){
         else
         {
 	        if (children.is(":visible")) {
-	        	  children.hide('fast');            
+	            children.fadeToggle('slow');         
 	            $(this).find(' > i').addClass('icon-plus-sign').removeClass('icon-minus-sign');
 	        } else {
-	            children.show('fast');
+	            children.fadeToggle('slow');
 	            $(this).find(' > i').addClass('icon-minus-sign').removeClass('icon-plus-sign');
 	        }
 	        e.stopPropagation();
