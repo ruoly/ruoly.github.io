@@ -47,10 +47,8 @@ $(function(){
 
     try{
 	    if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
-	    	alert("mobile");
 	        $("#logo").attr("src", "./images/mobile.png");
 	    }else{	 
-	    	alert("pc");
 	        $("#logo").attr("src", "./images/pc.PNG");
 	    }
     }catch(e){}
